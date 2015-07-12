@@ -1,0 +1,50 @@
+*{
+	font-family: 'Asap', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+.navbar{
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+
+/*.navbar .navbar-nav li a:hover{
+	text-decoration: 
+}*/
+
+#portfolio-gallery{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+#portfolio-gallery li{
+	margin: 10px;
+}
+
+#social-media-menu{
+	display:flex;
+	justify-content: flex-start;
+}
+
+#social-media-menu li{
+	margin: 20px 30px 20px 0;
+}
+
+
+
+
+
+
