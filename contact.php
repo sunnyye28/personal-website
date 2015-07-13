@@ -113,13 +113,13 @@
 						?>
 
 						<div class="row">
-							<div class="form-group col-xs-12 col-sm-6">
+							<div class="form-group col-xs-12 col-md-6">
 								<label for="name">Name:<span>*</span></label>
 								<input class="form-control" id="name" type="text" name="name"/>
 							</div>
 					
 
-							<div class="form-group col-xs-12 col-sm-6">
+							<div class="form-group col-xs-12 col-md-6">
 								<label for="email">Email:<span>*</span></label>
 								<input class="form-control" id="email" type="email" name="email"/>
 							</div>
@@ -131,11 +131,11 @@
 					
 							<div class="form-group col-xs-12">
 								<label for="message">Message:<span>*</span></label>
-								<textarea class="form-control" id="message-box" name="message" placeholder="Type your message here..."></textarea>
+								<textarea class="form-control" id="message" name="message" placeholder="Type your message here..."></textarea>
 							</div>
 
 							<div class="col-xs-12">
-								<button type="submit" class="btn btn-primary" id="send-button" name="submit">SEND</button>
+								<input type="submit" class="btn btn-primary" id="send-button" name="submit" value="SEND" />
 							</div>
 						</div>
 					</form>	
@@ -144,7 +144,7 @@
 
 				<section class="hidden-xs col-sm-6 col-md-4" id="aside">
 					<h3>Email</h3>
-					<a href="mailto: hello@sunnyye.com" id="my-contact-email" >hello@sunnyye.com</a>
+					<a href="mailto: sunnyye28@hotmail.com" id="my-contact-email" >sunnyye28@hotmail.com</a>
 
 					<h3>Location</h3>
 

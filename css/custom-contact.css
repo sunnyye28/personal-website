@@ -20,12 +20,16 @@ ul{
 }
 
 
+label{
+	font-weight: normal;
+}
+
 #contact-form span{
 	color:#E85952;
 }
 
-#message-box{
-	height:30%;
+#message{
+	height:150px;
 }
 
 #aside{
