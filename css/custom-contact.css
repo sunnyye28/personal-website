@@ -1,0 +1,52 @@
+*{
+	font-family: 'Asap', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+.navbar{
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+
+
+#contact-form span{
+	color:#E85952;
+}
+
+#message-box{
+	height:30%;
+}
+
+#aside{
+	text-align: center;
+}
+
+#aside h3{
+	color: #5E8DB6;
+}
+
+#social-media-menu{
+	display:flex;
+	justify-content: flex-start;
+}
+
+#social-media-menu li{
+	margin: 20px 30px 20px 0;
+}
+
+
+
+
+
+

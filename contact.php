@@ -61,7 +61,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Asap" rel="stylesheet" type="text/css">
 
 	<!--Custom CSS Styles-->
-	<link rel="stylesheet" href="css/custom.css" type="text/css">
+	<link rel="stylesheet" href="css/custom-contact.css" type="text/css">
 
 	<!--Installing jQuery-->
 	<script src="jquery/jquery-1.11.3.min.js"></script>
@@ -101,47 +101,68 @@
 			</div>		
 		</nav>
 
-		<section class="container" id="main-content-section">
-			<form name="contactform" method="post">
-				<h2>Contact Me</h2>
+		<div class="container" id="main-wrapper">
+			<div class ="row">
+				<section class="col-xs-12 col-sm-6 col-md-8" id="main-content-section">
+					<form name="contactform" id="contact-form" method="post">
+						<h2>Contact Me</h2>
+						<span><p>* Required Fields</p></span>
 
-				<span><p>* Required Fields</p></span>
+						<?php
+							echo $result;
+						?>
 
-				<?php
-					echo $result;
-				?>
+						<div class="row">
+							<div class="form-group col-xs-12 col-sm-6">
+								<label for="name">Name:<span>*</span></label>
+								<input class="form-control" id="name" type="text" name="name"/>
+							</div>
+					
 
-				<div class="form-input">
-					<label for="name">Name:<span>*</span></label>
-					<input id="name" type="text" name="name"/>
-				</div>
+							<div class="form-group col-xs-12 col-sm-6">
+								<label for="email">Email:<span>*</span></label>
+								<input class="form-control" id="email" type="email" name="email"/>
+							</div>
 
-				<div class="form-input">
-					<label for="email">Email:<span>*</span></label>
-					<input id="email" type="email" name="email"/>
-				</div>
+							<div class="form-group col-xs-12">
+								<label for="subject">Subject:</label>
+								<input class="form-control" id="subject" type="text" name="subject"/>
+							</div>
+					
+							<div class="form-group col-xs-12">
+								<label for="message">Message:<span>*</span></label>
+								<textarea class="form-control" id="message-box" name="message" placeholder="Type your message here..."></textarea>
+							</div>
 
-				<div class="subject-input">
-					<label for="subject">Subject:</label>
-					<input id="subject" type="text" name="subject"/>
-				</div>
+							<div class="col-xs-12">
+								<button type="submit" class="btn btn-primary" id="send-button" name="submit">SEND</button>
+							</div>
+						</div>
+					</form>	
 
-				<div class="message-input">
-					<label for="message">Message:<span>*</span></label>
-					<textarea id="message" name="message" placeholder="Type your message here..."></textarea>
-				</div>
+				</section>
 
-				<input id="send-button" type="submit" name="submit" value="SEND" />
-			</form>	
+				<section class="hidden-xs col-sm-6 col-md-4" id="aside">
+					<h3>Email</h3>
+					<a href="mailto: hello@sunnyye.com" id="my-contact-email" >hello@sunnyye.com</a>
 
-		</section>
+					<h3>Location</h3>
+
+					<p>Sydney, Australia</p>
+
+					<h3>Time Zone</h3>
+					<p>Australian Eastern Time<br/>
+					(UTC+10)</p>
+				</section>		
+			</div>
+		</div>
+
 
 		<footer class="container">
 			<ul id="social-media-menu">
 				<li><a href="https://github.com/sunnyye28">Github</a></li>
 				<li><a href="https://twitter.com/sunnyye28">Twitter</a></li>
 			</ul>
-
 			<p>&copy; Sunny Ye 2015.</p>
 		</footer>
 	</div>

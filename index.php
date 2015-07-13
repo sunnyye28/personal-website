@@ -17,7 +17,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Asap" rel="stylesheet" type="text/css">
 
 	<!--Custom CSS Styles-->
-	<link rel="stylesheet" href="css/custom.css" type="text/css">
+	<link rel="stylesheet" href="css/custom-portfolio.css" type="text/css">
 
 	<!--Installing jQuery-->
 	<script src="jquery/jquery-1.11.3.min.js"></script>
