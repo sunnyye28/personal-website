@@ -21,7 +21,7 @@
 
 
 		if ($error){
-			$result='<div class="form-error">There were error(s) in your form:'.$error.'</div><br/>';
+			$result='<div class="text-danger">There were error(s) in your form:'.$error.'</div><br/>';
 		} else{	
 
 			$emailTo="sunnyye28@hotmail.com";
