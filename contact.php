@@ -29,7 +29,8 @@
 			$senderEmail=$_POST['email'];
 			$subject="Message from sunnyye.com: ".$_POST['subject'];
 			$message= $_POST['message'];
-			$headers="From: ".$senderName." <".$senderEmail.">";
+			$headers="From: ".$senderName." <".$senderEmail.">";	
+		
 
 			if(mail($emailTo, $subject, $message, $headers)){
 				$result='<div class="form-success">Your message was successfully sent.'.'</div><br/>';
@@ -101,7 +102,7 @@
 			</div>		
 		</nav>
 
-		<div class="container" id="main-wrapper">
+		<div class="container">
 			<div class ="row">
 				<section class="col-xs-12 col-sm-6 col-md-8" id="main-content-section">
 					<form name="contactform" id="contact-form" method="post">

@@ -2,6 +2,7 @@
 	font-family: 'Asap', sans-serif;
 }
 
+
 a{
 	text-decoration: none;
 	color: inherit;
@@ -46,7 +47,7 @@ label{
 }
 
 #social-media-menu li{
-	margin: 20px 30px 20px 0;
+	margin: 20px 30px 10px 0;
 }
 
 

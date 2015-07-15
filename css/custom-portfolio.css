@@ -13,6 +13,10 @@ ul{
 }
 
 
+ul li img{
+	cursor: pointer;
+}
+
 .navbar{
 	border: none;
 	background: none;
@@ -23,16 +27,18 @@ ul{
 	text-decoration: 
 }*/
 
-#portfolio-gallery{
-	display: flex;
-	flex-wrap: wrap;
 
-
+#portfolio-gallery ul{
+	padding: 0;
+	margin: 0;
 }
+
 
 #portfolio-gallery li{
-	margin: 10px;
+	margin-bottom: 25px;
 }
+
+
 
 #social-media-menu{
 	display:flex;
