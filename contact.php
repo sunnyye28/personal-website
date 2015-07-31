@@ -94,7 +94,6 @@
 				<div class="collapse navbar-collapse"> 
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="index.html">Portfolio</a></li>
-						<li><a href="personal.html">Personal Work</a></li>
 						<li><a href="about.html">About</a></li>
 						<li><a href="contact.php">Contact</a></li>
 					</ul>	
@@ -107,7 +106,7 @@
 				<section class="col-xs-12 col-sm-6 col-md-8" id="main-content-section">
 					<form name="contactform" id="contact-form" method="post">
 						<h2>Contact Me</h2>
-						<span><p>* Required Fields</p></span>
+						<span class="required-field"><p>* Required Fields</p></span>
 
 						<?php
 							echo $result;
@@ -115,23 +114,23 @@
 
 						<div class="row">
 							<div class="form-group col-xs-12 col-md-6">
-								<label for="name">Name:<span>*</span></label>
+								<label for="name"><span class="glyphicon glyphicon-user"></span> Name:<span class="required-field">*</span></label>
 								<input class="form-control" id="name" type="text" name="name"/>
 							</div>
 					
 
 							<div class="form-group col-xs-12 col-md-6">
-								<label for="email">Email:<span>*</span></label>
+								<label for="email"><span class="glyphicon glyphicon-envelope"></span> Email:<span class="required-field">*</span></label>
 								<input class="form-control" id="email" type="email" name="email"/>
 							</div>
 
 							<div class="form-group col-xs-12">
-								<label for="subject">Subject:</label>
+								<label for="subject"><span class="glyphicon glyphicon-book"></span> Subject:</label>
 								<input class="form-control" id="subject" type="text" name="subject"/>
 							</div>
 					
 							<div class="form-group col-xs-12">
-								<label for="message">Message:<span>*</span></label>
+								<label for="message"><span class="glyphicon glyphicon-pencil"></span>Message:<span class="required-field">*</span></label>
 								<textarea class="form-control" id="message" name="message" placeholder="Type your message here..."></textarea>
 							</div>
 
