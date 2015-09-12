@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-	<title>Sunny Ye | About Me</title>
+	<title><?php echo $pageTitle;?></title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">    
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +16,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Asap" rel="stylesheet" type="text/css">
 
 	<!--Custom CSS Styles-->
-	<link rel="stylesheet" href="css/custom-about.css" type="text/css">
+	<link rel="stylesheet" href="css/custom.css" type="text/css">
 
 	<!--Installing jQuery-->
 	<script src="jquery/jquery-1.11.3.min.js"></script>
@@ -48,36 +47,10 @@
 
 				<div class="collapse navbar-collapse"> 
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html">Portfolio</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="contact.php">Contact</a></li>
+						<li class="<?php if($section == 'work'){echo 'current';} ?>"><a href="index">Work</a></li>
+						<li class="<?php if($section == 'about'){echo 'current';} ?>"><a href="about">About</a></li>
+						<li class="<?php if($section == 'contact'){echo 'current';} ?>"><a href="contact">Contact</a></li>
 					</ul>	
 				</div>		
 			</div>		
 		</nav>
-
-		<div class="container">
-			<div class ="row">
-				<section class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3" id="about-section">
-						<h2>About Me</h2>
-						
-						<p>My name is Sunny Ye, a web developer based in Sydney, Australia</p>
-						<p>I design and build websites and web applications using a front-end stack of: HTML, CSS, JavaScript, jQuery and Bootstrap. My current back-end language of choice is PHP.</p>
-				</section>	
-		</div>
-
-		<footer class="container navbar navbar-default navbar-fixed-bottom">
-			<ul id="social-media-menu">
-				<li><a href="https://github.com/sunnyye28">Github</a></li>
-				<li><a href="https://twitter.com/sunnyye28">Twitter</a></li>
-			</ul>
-
-			<p>&copy; Sunny Ye 2015.</p>
-		</footer>
-	</div>
-
-
-
-	
-</body>
-</html>
