@@ -1,0 +1,120 @@
+*{
+	font-family: 'Asap', sans-serif;
+}
+
+html, body{
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+ul li img{
+	cursor: pointer;
+}
+
+.navbar{
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+
+
+/*Underlining the link for the current active page*/
+.nav .current a{
+	text-decoration: underline;
+}
+
+
+#portfolio-gallery ul{
+	padding: 0;
+	margin: 0;
+}
+
+
+#portfolio-gallery li{
+	margin-bottom: 25px;
+}
+
+.detailsView{
+	display: block;
+	padding-top: 15px;
+	text-align: center;
+}
+
+
+
+#social-media-menu{
+	display:flex;
+	justify-content: flex-start;
+}
+
+#social-media-menu li{
+	margin: 20px 30px 20px 0;
+}
+
+/*Forcing footer to bottom of page*/
+
+#main-wrapper{
+	min-height: 100%;
+	margin-bottom: -170px; 
+}
+
+footer{
+	margin-top: 50px;
+	height: 120px;
+}
+
+.push{
+	height: 170px;
+}
+
+/*contact page styles*/
+
+label{
+	font-weight: normal;
+}
+
+.required-field{
+	color:#E85952;
+}
+
+#message{
+	height:150px;
+}
+
+#aside{
+	text-align: center;
+}
+
+#aside h3{
+	color: #5E8DB6;
+}
+
+#social-media-menu{
+	display:flex;
+	justify-content: flex-start;
+}
+
+#social-media-menu li{
+	margin: 20px 30px 10px 0;
+}
+
+.glyphicon{
+	margin-right: 5px;
+}
+
+/*About page styles*/
+
+#about-section{
+	text-align: left;
+}
+
