@@ -8,9 +8,9 @@
 	);
 
 	$portfolio[2] = array(
-		'name' => 'Placeholder 2',
-		'img' => 'http://dummyimage.com/300x260/4e81ac/fff',
-		'link' => '#'
+		'name' => 'Weather Predictor',
+		'img' => 'img/weather-scraper-sm.png',
+		'link' => 'http://test.sunnyye.com/weatherPredictor/index.php'
 	);	
 			
 	$portfolio[3] = array(
